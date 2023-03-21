@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*!! Header Start  */
+header {
+  background-color: #4e5660;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.Logo-box a h4 {
+  color: aliceblue;
+  align-items: center;
+  font-size: 40px;
+}
+.Logo-box a h4 span {
+  color: #ed563b;
+}
+
+.navigations ul {
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+}
+.navigations ul li a {
+  font-weight: 700;
+  color: white;
+  transition: 0.4s;
+}
+.navigations ul li a:hover {
+  color: #ed563b;
+}
+.navigations ul li button {
+  padding: 10px 20px;
+  background-color: #ed563b;
+  color: white;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+
+/*!! Header End  */
+/* !! Title start */
+.title {
+  height: 380px;
+  background-image: url(İMG/cta-bg.jpg);
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+.title-wrapper h6 {
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.title-wrapper h1 {
+  margin-top: 20px;
+  color: white;
+  font-size: 70px;
+}
+.title-wrapper h1 span {
+  margin-top: 20px;
+  color: #ed563b;
+  font-size: 70px;
+}
+
+.title-wrapper button {
+  padding: 18px 40px;
+  background-color: #ed563b;
+  border: none;
+  color: white;
+  font-weight: 900;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* !! Title end */
+
+/* !! choose programs start*/
+
+.program-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.program-title h4 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+.program-title h4 span {
+  color: #ed563b;
+}
+.program-title p {
+  max-width: 500px;
+  margin-top: 20px;
+  color: #4e5660;
+  font-weight: 700;
+}
+
+.program-wrapper {
+  display: grid;
+  grid-template-columns: 540px 540px;
+  grid-template-rows: 200px 200px 200px;
+}
+.program-in {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.program-in h5 {
+  font-size: 30px;
+}
+
+/* !! programs end */
+
+/*!! Our class */
+
+.ourclass-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.ourclass-title h4 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+.ourclass-title h4 span {
+  color: #ed563b;
+}
+.ourclass-title p {
+  max-width: 500px;
+  margin-top: 20px;
+  color: #4e5660;
+  font-weight: 700;
+}
+/*!! Style the tab start*/
+.ourclass-tabmenu {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 30px;
+}
+
+.tab {
+  float: left;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+}
+
+.tab button {
+  border-radius: 5px;
+  display: flex;
+  color: black;
+  padding: 25px 25px;
+  column-gap: 20px;
+  width: 100%;
+  border: 0.5px solid #8888;
+  cursor: pointer;
+  transition: 0.3s;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px #8888;
+}
+
+.tab button.active {
+  color: #ed563b;
+}
+
+.tabcontent {
+  padding: 0px 12px;
+  width: 70%;
+}
+
+.tabcontent img {
+  border-radius: 5px;
+}
+.tabcontent h3 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.tabcontent p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+/*!! Style the tab end */
+
+/* !! schedule start */
+
+.schedule-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 120px;
+}
+
+.schedule-title h4 {
+  font-size: 30px;
+  font-weight: 1000;
+  color: white;
+}
+.schedule-title h4 span {
+  color: #ed563b;
+}
+.schedule-title p {
+  max-width: 500px;
+  margin-top: 20px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.classes-schedule {
+  height: 1000px;
+  background-image: url(İMG/schedule-bg.jpg);
+}
+
+/* !! schedule end */
+
+/*!! Style tab2 links */
+.days {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  column-gap: 5px;
+}
+.days a {
+  width: 100px;
+  transition: 0.4s;
+}
+
+.cctablink {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  width: 45%;
+}
+
+.cctablink:hover {
+  color: #ed563b;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.cctabcontent table {
+  color: white;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin-top: 50px;
+  transition: 0.4s;
+}
+
+.cctabcontent table tr td {
+  border: 1px white solid;
+  padding: 50px;
+}
+
+/*! Trainers */
+
+.trainers-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 120px;
+}
+
+.trainers-title h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.trainers-title h4 span {
+  color: #ed563b;
+}
+.trainers-title p {
+  max-width: 500px;
+  margin-top: 20px;
+  color: #4e5660;
+  font-weight: 700;
+  text-align: center;
+}
+
+.trainer-wrapper {
+  margin-top: 80px;
+  display: flex;
+  column-gap: 50px;
+}
+
+.trainer-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 5px;
+  color: black;
+  border: 0.5px solid #8888;
+  box-shadow: 2px 2px 2px 2px #8888;
+}
+
+.trainer-card img {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.trainer-card h5 {
+  color: red;
+  margin: 10px 0px;
+}
+
+.trainer-card h3 {
+  font-weight: 700;
+}
+
+.trainer-card p {
+  margin: 10px 0px;
+  color: #4e5660;
+}
+.card-icons {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: -20px;
+}
+.card-icons a i {
+  color: black;
+}
+/*! Trainers end */
+
+/*! contact start */
+.contact {
+  margin-top: 80px;
+  display: flex;
+}
+.maps iframe {
+  width: 759px;
+}
+
+.contact-forms {
+  background-image: url(İMG/contact-bg.jpg);
+  height: 600px;
+  width: 759px;
+  display: block;
+}
+
+.contact-form-in {
+  background-color: white;
+  margin: 50px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.inpust-up input {
+  width: 250px;
+  column-gap: 50px;
+}
