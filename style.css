@@ -455,7 +455,7 @@ header {
     flex-direction: column;
   }
   .maps iframe {
-    max-width: 300px;
+    width: 300px;
   }
   .contact-forms {
     width: 400px;
