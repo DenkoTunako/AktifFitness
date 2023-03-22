@@ -18,7 +18,7 @@
             <div class="header-wrapper">
                 <div class="Logo-box">
                     <a href="index.html">
-                        <h4>AKTİF <span> FİTNESS</span></h4>
+                        <h4>DENKO <span> FİTNESS</span></h4>
                     </a>
                 </div>
                 <div class="navigations">
@@ -133,9 +133,8 @@
             </div>
             <div class="ourclass-tabmenu">
                 <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'London')"><img src="İMG/tabs-first-icon.png"
-                            alt="">
-                        First Training Class</button>
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><img
+                            src="İMG/tabs-first-icon.png" alt=""> First Training Class</button>
                     <button class="tablinks" onclick="openCity(event, 'Paris')"><img src="İMG/tabs-first-icon.png"
                             alt="">Second Training Class</button>
                     <button class="tablinks" onclick="openCity(event, 'Tokyo')"><img src="İMG/tabs-first-icon.png"
@@ -196,10 +195,10 @@
             </div>
             <div class="days">
                 <a class="cctablink" onclick="openPage('Monday', this, )">Monday </a>
-                <a class="cctablink" onclick="openPage('Tuesday', this,)" id="defaultOpen">Tuesday</a>
-                <a class="cctablink" onclick="openPage('Wednesday', this, )">Wednesday</a>
-                <a class="cctablink" onclick="openPage('Thursday', this, )">Thursday</a>
-                <a class="cctablink" onclick="openPage('Friday', this, )">Friday</a>
+                <a class="cctablink" onclick="openPage('Tuesday', this,)">Tuesday</a>
+                <a class="cctablink" onclick="openPage('Wednesday', this,)">Wednesday</a>
+                <a class="cctablink" onclick="openPage('Thursday', this,)" id="defaultOpens">Thursday</a>
+                <a class=" cctablink" onclick="openPage('Friday', this,)">Friday</a>
             </div>
             <div id="Monday" class="cctabcontent">
                 <table>
@@ -453,17 +452,27 @@
         <div class="contact-forms">
             <div class="contact-form-in">
                 <div class="inpust-up">
-                    <input type="text">
-                    <input type="email">
+                    <input type="text" placeholder="Name*">
+                    <input type="email" placeholder="Mail*">
                 </div>
-                <input type="text">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input type="text" placeholder="Subject*">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Messages*"></textarea>
                 <button>SEND MESSAGE</button>
             </div>
         </div>
     </div>
-
     <!-- ** Contact end -->
+
+    <!-- ** Footerss  -->
+    <div class="footter">
+        <div class="footter-in">
+            <p>Copyright © 2023 Training Studio - Designed by TemplateMo
+                Distributed by Denko Tunako</p>
+
+            <p>Distributed by HüsamkoMadrid</p>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
