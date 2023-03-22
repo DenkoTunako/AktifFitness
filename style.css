@@ -52,8 +52,16 @@ header {
   cursor: pointer;
 }
 
-/*!! Header End  */
-/* !! Title start */
+@media (max-width: 420px) {
+  .header-wrapper {
+    display: block;
+  }
+  .navigations > ul {
+    display: block;
+  }
+}
+
+/*!! Header End */ /* !! Title start */
 .title {
   height: 380px;
   background-image: url(İMG/cta-bg.jpg);
@@ -132,10 +140,16 @@ header {
   font-size: 30px;
 }
 
-/* !! programs end */
+@media (max-width: 420px) {
+  .programs {
+    display: block;
+  }
+  .program-wrapper {
+    display: block;
+  }
+}
 
-/*!! Our class */
-
+/* !! programs end */ /*!! Our class */
 .ourclass-title {
   display: flex;
   flex-direction: column;
@@ -210,10 +224,22 @@ header {
   font-size: 15px;
   margin-top: 20px;
 }
-/*!! Style the tab end */
 
-/* !! schedule start */
+@media (max-width: 420px) {
+  .ourclass-tabmenu {
+    display: block;
+  }
+  .tab button {
+    margin-left: 120px;
+    width: 300px;
+  }
+  .tabcontent img {
+    width: 300px;
+    margin-top: 150px;
+  }
+}
 
+/*!! Style the tab end */ /* !! schedule start */
 .schedule-title {
   display: flex;
   flex-direction: column;
@@ -243,9 +269,14 @@ header {
   background-image: url(İMG/schedule-bg.jpg);
 }
 
-/* !! schedule end */
+@media (max-width: 420px) {
+  .days {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
-/*!! Style tab2 links */
+/* !! schedule end */ /*!! Style tab2 links */
 .days {
   display: flex;
   justify-content: center;
@@ -355,9 +386,14 @@ header {
 .card-icons a i {
   color: black;
 }
-/*! Trainers end */
 
-/*! contact start */
+@media (max-width: 420px) {
+  .trainer-wrapper {
+    display: block;
+  }
+}
+
+/*! Trainers end */ /*! contact start */
 .contact {
   margin-top: 80px;
   display: flex;
@@ -411,6 +447,26 @@ header {
   font-weight: 900;
   margin-top: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 420px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .maps iframe {
+    max-width: 300px;
+  }
+  .contact-forms {
+    width: 400px;
+  }
+
+  .contact-form-in input {
+    width: 50px;
+  }
+  .contact-form-in textarea {
+    width: 150px;
+  }
 }
 
 /*!! Footter */
